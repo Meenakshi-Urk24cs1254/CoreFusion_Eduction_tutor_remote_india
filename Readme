@@ -31,6 +31,7 @@ This project is an AI-powered education tutor designed for students in remote ar
 - 🗣️ Multi-language support (future scope)
 
 ## 🛠️ Technologies Used
+- python
 - Hugging Face Transformers
 - FAISS / ChromaDB
 
