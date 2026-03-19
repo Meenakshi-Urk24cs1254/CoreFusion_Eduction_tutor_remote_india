@@ -1,0 +1,52 @@
+# AI Education Tutor for Remote India
+
+## 📌 Description
+This project is an AI-powered education tutor designed for students in remote areas with limited internet connectivity. It uses a Retrieval-Augmented Generation (RAG) architecture combined with a lightweight Large Language Model (LLM) to deliver accurate and context-aware answers.
+
+## 🧠 Core Technologies
+- RAG (Retrieval-Augmented Generation)
+- Lightweight LLM (TinyLlama / Distil models)
+- Vector Database (FAISS / Chroma)
+- Edge / Embedded System (ESP32 / Raspberry Pi)
+
+## ⚙️ System Architecture
+
+### 🔹 RAG Pipeline
+1. User asks a question
+2. Query is converted into embeddings
+3. Relevant documents are retrieved from local database
+4. Retrieved data is passed to LLM
+5. LLM generates final answer
+
+### 🔹 LLM (Scaled Down)
+- Uses small, efficient models instead of large cloud models
+- Optimized for low memory and low power devices
+- Can run locally without continuous internet
+
+## 🚀 Features
+- 📚 Context-aware answers using RAG
+- ⚡ Fast response with local processing
+- 🌐 Works in low or no internet
+- 💾 Offline knowledge base support
+- 🗣️ Multi-language support (future scope)
+
+## 🛠️ Technologies Used
+- Hugging Face Transformers
+- FAISS / ChromaDB
+
+
+## 📉 Model Optimization (Scaling Down)
+- Quantization (reducing model size)
+- Pruning (removing unnecessary weights)
+- Using distilled models (smaller LLMs)
+- Running inference locally instead of cloud
+
+## ▶️ How to Run
+1. Install dependencies (`pip install -r requirements.txt`)
+2. Load educational dataset
+3. Create embeddings and store in vector DB
+4. Run the RAG pipeline
+5. Ask questions via interface
+
+## 🌍 Impact
+This solution provides affordable and accessible AI-based education to students in rural and underserved regions, reducing dependency on internet connectivity.
