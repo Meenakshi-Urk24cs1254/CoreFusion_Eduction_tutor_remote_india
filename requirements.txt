@@ -1,0 +1,20 @@
+# Main Framework & Legacy Support
+langchain>=0.3.0
+langchain-classic>=1.0.0
+langchain-community
+
+# Google Gemini Integration
+langchain-google-genai>=4.2.0
+python-dotenv
+
+# Local Embeddings (Hugging Face)
+langchain-huggingface
+sentence-transformers
+torch --index-url https://download.pytorch.org/whl/cpu
+
+# Vector Databases
+faiss-cpu
+chromadb
+
+# UI & Web
+gradio
